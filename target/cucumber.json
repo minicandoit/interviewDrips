@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-14T21:43:17.870Z",
+        "line": 4,
+        "name": "log In test",
+        "description": "",
+        "id": "log-in;log-in-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4369000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the base page",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.userIsOnTheBasePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on sign in link",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.user_clicks_on_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on the log in page",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.user_is_on_the_log_in_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2211000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "type the email",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.type_the_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "type the password",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.type_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3209000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on sign In button",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5050000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is logged in",
+            "match": {
+              "location": "com.drips.step_definitions.logIn_StepDefinitions.user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Wip"
+          }
+        ]
+      }
+    ],
+    "name": "log in",
+    "description": "",
+    "id": "log-in",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/resources/features/login.feature",
+    "tags": []
+  }
+]
